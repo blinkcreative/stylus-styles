@@ -1,0 +1,29 @@
+/* ==UserStyle==
+@name           Meta Ads Manager Improvements
+@namespace      blinkcreative.com.au
+@version        1.0.0
+@description    General improvements and hides all "recommendations" from the Meta Ads Interface.
+@author         Blink Creative
+@updateURL      https://raw.githubusercontent.com/YOUR-ORG/YOUR-REPO/main/internal-admin.user.css
+==/UserStyle== */
+
+@-moz-document domain("example.com") {
+	/* Wider sidebar */
+	div > div > span[data-surface-wrapper='1'] > div > div > div[data-visualcompletion='ignore'] {
+		max-width: 500px;
+		width: 500px;
+	}
+
+	/* "Recommendations" */
+	div#adgroupPreflightRecommendationHubSection,
+	div#campaignPreflightRecommendationHubSection,
+	div#campaignGroupPreflightRecommendationHubSection,
+	div[data-surface$='/lib:GeoGuidanceCard'] {
+		display: none !important;
+	}
+
+	/* Meta AI Assista */
+	div#js_45z {
+		display: none !important;
+	}
+}
