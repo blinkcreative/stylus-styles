@@ -7,7 +7,7 @@
 @updateURL      https://raw.githubusercontent.com/blinkcreative/stylus-styles/refs/heads/main/meta-ads-manager.user.css
 ==/UserStyle== */
 
-@-moz-document domain("example.com") {
+@-moz-document domain("adsmanager.facebook.com") {
 	/* Wider sidebar */
 	div > div > span[data-surface-wrapper='1'] > div > div > div[data-visualcompletion='ignore'] {
 		max-width: 500px;
