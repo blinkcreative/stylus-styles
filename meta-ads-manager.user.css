@@ -22,8 +22,8 @@
 		display: none !important;
 	}
 
-	/* Meta AI Assista */
-	div#js_45z {
+	/* Meta AI Assistant */
+	span[data-surface="/am/navigation_toolbar/maiba_fab"] {
 		display: none !important;
 	}
 }
