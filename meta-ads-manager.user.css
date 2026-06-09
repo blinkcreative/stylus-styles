@@ -1,7 +1,7 @@
 /* ==UserStyle==
 @name           Meta Ads Manager Improvements
 @namespace      blinkcreative
-@version        1.0.2
+@version        1.0.3
 @description    General improvements and hides all "recommendations" from the Meta Ads Interface.
 @author         Blink Creative
 @updateURL      https://raw.githubusercontent.com/blinkcreative/stylus-styles/refs/heads/main/meta-ads-manager.user.css
@@ -9,7 +9,7 @@
 
 @-moz-document domain("adsmanager.facebook.com") {
 	/* Wider sidebar */
-	div > div > span[data-surface-wrapper='1'] > div > div > div[data-visualcompletion='ignore'] {
+	span[data-surface="/am/editor_drawer"] > div > div > div[data-visualcompletion='ignore'] {
 		max-width: 500px;
 		width: 500px;
 	}
